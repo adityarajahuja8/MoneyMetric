@@ -1,16 +1,55 @@
-# React + Vite
+# 💰 MoneyMetric
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+MoneyMetric is a modern Personal Finance Tracker web application that helps users manage their income, expenses, and overall financial activity efficiently.
 
-Currently, two official plugins are available:
+🔗 Live Demo: https://money-metric-umber.vercel.app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🔐 Google Authentication (Firebase)
+- 📊 Track Income & Expenses
+- 📈 Financial Dashboard Overview
+- 🧾 Add & Delete Transactions
+- 💡 Clean and Responsive UI
+- ☁️ Deployed on Vercel
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+### Frontend
+- React.js
+- Vite
+- React Router
+- CSS
+
+### Authentication
+- Firebase Authentication (Google Sign-In)
+
+### Deployment
+- Vercel
+
+---
+
+## 🔐 Authentication
+
+- Secure Google Sign-In using Firebase
+- Authorized domains configured for production
+- Persistent login session
+
+---
+
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone Repository
+
+npm install
+
+### 3️⃣ Run Development Server
+
+

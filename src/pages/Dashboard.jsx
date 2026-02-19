@@ -145,6 +145,12 @@ export default function Dashboard() {
                 />
             </main>
 
+            <footer className="site-footer">
+                <span>© {new Date().getFullYear()} Money Metric</span>
+                <span className="footer-dot">·</span>
+                <span>Built for smarter finances</span>
+            </footer>
+
             <button
                 id="add-transaction-fab"
                 className="fab"

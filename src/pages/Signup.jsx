@@ -110,21 +110,18 @@ export default function Signup() {
                         {loading ? "Creating…" : "Create Account"}
                     </button>
                 </form>
-                <div className="auth-divider" style={{ display: "flex", justifyContent: "center" }}>
+                <div className="auth-divider">
                     <span>or</span>
                 </div>
-                <div style={{ display: "flex", justifyContent: "center" }}>
-                    <button
-                        id="google-signup"
-                        className="google-btn"
-                        onClick={handleGoogleSignup}
-                        disabled={loading}
-                        style={{ display: "flex", alignItems: "center", gap: "0.5rem" }}
-                    >
-                        <FcGoogle className="google-icon" />
-                        Sign up with Google
-                    </button>
-                </div>
+                <button
+                    id="google-signup"
+                    className="google-btn"
+                    onClick={handleGoogleSignup}
+                    disabled={loading}
+                >
+                    <FcGoogle className="google-icon" />
+                    Sign up with Google
+                </button>
                 <p className="auth-footer">
                     Already have an account? <Link to="/login">Sign In</Link>
                 </p>

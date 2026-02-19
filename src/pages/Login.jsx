@@ -90,21 +90,18 @@ export default function Login() {
                         {loading ? "Signing in…" : "Sign In"}
                     </button>
                 </form>
-                <div className="auth-divider" style={{ display: "flex", textAlign: "center", justifyContent: "center" }}>
+                <div className="auth-divider">
                     <span>or</span>
-                </div >
-                <div style={{ display: "flex", justifyContent: "center" }}>
-                    <button
-                        id="google-login"
-                        className="google-btn"
-                        onClick={handleGoogleLogin}
-                        disabled={loading}
-                        style={{ display: "flex", alignItems: "center", gap: "0.5rem" }}
-                    >
-                        <FcGoogle className="google-icon" />
-                        Sign in with Google
-                    </button>
                 </div>
+                <button
+                    id="google-login"
+                    className="google-btn"
+                    onClick={handleGoogleLogin}
+                    disabled={loading}
+                >
+                    <FcGoogle className="google-icon" />
+                    Sign in with Google
+                </button>
                 <p className="auth-footer">
                     Don't have an account? <Link to="/signup">Sign Up</Link>
                 </p>
